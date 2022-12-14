@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https: //fonts.googleapis.com/css2?family= Poppins:ital, wght @0,100;0,400;0,900;1,200;1,600 & display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2>Criar uma conta</h2>
+      </header>
+
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="User name">Nome de usuário</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Digite o nome do usuário"
+          />
+          <i class="exclamation"
+            ><span class="material-symbols-outlined"> warning </span></i
+          >
+          <i class="check"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="Email">Email</label>
+          <input type="text" id="email" placeholder="Digite seu e-mail" />
+          <i class="exclamation"
+            ><span class="material-symbols-outlined"> warning </span></i
+          >
+          <i class="check"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Senha</label>
+          <input type="text" id="senha" placeholder="Digite sua senha" />
+          <i class="exclamation"
+            ><span class="material-symbols-outlined"> warning </span></i
+          >
+          <i class="check"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password-confirmation">Confirme a senha</label>
+          <input
+            type="text"
+            id="senhaConfirmacao"
+            placeholder="Confirme sua senha"
+          />
+          <i class="exclamation"
+            ><span class="material-symbols-outlined"> warning </span></i
+          >
+          <i class="check"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
